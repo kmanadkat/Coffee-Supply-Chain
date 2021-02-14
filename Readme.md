@@ -32,6 +32,7 @@ Below are the 4 UML diagrams that help us to architect & understand over all pro
 - [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 - [web3.js](https://web3js.readthedocs.io/en/v1.3.0/) - It is a collection of libraries that allows to interact with a local or remote ethereum node.
 - [Metamask](https://metamask.io/) - A crypto wallet & gateway to blockchain apps.
+- IPFS - **Not used in this project**
 
 ```
 Truffle v5.1.61 (core: 5.1.61)
@@ -248,14 +249,6 @@ Summary
    
      10 passing (1s)
    ```
-
-
-
-## Running Project Locally
-
-To test project locally, first complete all steps from `Project Testing Steps` above & then run `npm run dev`. Make sure Ganache GUI is running. It is preferred to disable metamask while testing project locally thus allowing to interact with contracts deployed in Ganache GUI. [http://localhost:3000](http://localhost:3000)
-
-![Screenshot 2021-02-14 at 6.42.31 PM](./readmeAssets/test.png)
 
 
 
@@ -526,7 +519,8 @@ Below are the Contract address:
 
 
 
+## Running Project Locally
 
+To test project locally, first complete all steps from `Project Testing Steps` above & then run `npm run dev`. Make sure Ganache GUI is running. It is preferred to disable metamask while testing project locally thus allowing to interact with contracts deployed in Ganache GUI. [http://localhost:3000](http://localhost:3000)
 
-
-
+![Screenshot 2021-02-14 at 6.42.31 PM](./readmeAssets/test.png)
